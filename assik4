@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Atyrau Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold" href="#">Atyrau Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Landmarks</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About City</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-lg-8">
+        <h1 class="mb-3 text-center fw-bold">Atyrau Landmarks</h1>
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div class="card shadow-lg border-0 h-100">
+              <img src="https://www.zakon.kz/pbi/WEBP/2024-01-21/file-2b324354-86c9-4ddc-b0bb-652d3acce66d/800x450.webp" class="card-img-top" alt="Ural River">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Ural River</h5>
+                <p class="card-text">Atyrau is divided by the Ural River, symbolizing the border between Europe and Asia.</p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="card shadow-lg border-0 h-100">
+              <img src="https://visitatyrau.kz/wp-content/uploads/sites/7/2024/12/iman-ali-meshiti-1.jpg" class="card-img-top" alt="Imangali Mosque">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Imangali Mosque</h5>
+                <p class="card-text">One of the most beautiful architectural landmarks of Atyrau.</p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card shadow-lg border-0 h-100">
+              <img src="https://bonita.kz/wp-content/uploads/2015/10/peshehodniy-most-atyrau-2-.jpg" class="card-img-top" alt="Footbridge">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Footbridge</h5>
+                <p class="card-text">The pedestrian bridge in Atyrau is unique in that it connects Europe and Asia. 🚶‍♂️🌍</p>
+                <a href="#" class="btn btn-outline-primary btn-sm">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <h2 class="fw-bold text-primary">About Atyrau</h2>
+        <p class="text-muted">This project highlights the culture and landmarks of Atyrau city.</p>
+        <div class="card shadow border-0">
+          <div class="card-body">
+            <h5 class="fw-bold">City Info</h5>
+            <p><strong>Population:</strong> ~355,000</p>
+            <p><strong>Region:</strong> Atyrau Region, Kazakhstan</p>
+            <p><strong>Founded:</strong> 1640</p>
+            <hr>
+            <p class="fst-italic text-muted">Fun fact: Atyrau is a city located in both Europe and Asia.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="mt-5 bg-primary text-white text-center py-3 shadow-lg">
+    <p class="mb-0">&copy; Made with ❤️</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
