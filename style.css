@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: #004080;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+  h1 { font-size: 20px; }
+  p { font-size: 12px; }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  h1 { font-size: 24px; }
+  p { font-size: 14px; }
+}
+
+@media (min-width: 993px) {
+  h1 { font-size: 28px; }
+  p { font-size: 16px; }
+}
